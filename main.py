@@ -19,7 +19,7 @@ def packet_callback(packet):
 
 def continuous_capture():
     """Continuously capture packets."""
-    sniff(prn=packet_callback, store=0, snaplen=65535)
+    sniff(prn=packet_callback, store=0)
 
 def get_packet_details(packet):
     """Capture the output of packet.show() and return it as a string."""
