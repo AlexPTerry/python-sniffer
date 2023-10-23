@@ -1,0 +1,2 @@
+# python-sniffer
+Graphical interface to Scapy with some features such as selecting only packets around a key press and filtering out packets.
